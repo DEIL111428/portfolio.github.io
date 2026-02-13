@@ -10,11 +10,18 @@ relativeURLs = false
     env = "production"
     description = "Моё портфолио"
     author = "DEIL111428"
+    displayFullContent = false
+    # Включает режим карточки приветствия
+    showFullTextContent = false
     
     # Настройки отображения главной страницы (Home Info Mode)
     [params.homeInfoParams]
         Title = "Привет! Это мой сайт"
-        Content = "Здесь я публикую свои отчеты по учебе."
+        Content = "Здесь я публикую свои отчеты по учебе и проекты на Python."
+
+        [[params.homeInfoParams.SocialIcons]]
+            name = "github"
+            url = "https://github.com/DEIL111428""
 
     # Настройки разметки (помогает избежать проблем с отображением)
     [markup.goldmark.renderer]
