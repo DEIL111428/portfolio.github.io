@@ -5,4 +5,4 @@ theme = 'PaperMod'
 
 [params]
     # Это поможет теме правильно подхватывать стили
-    env = "production
+    env = "production"
