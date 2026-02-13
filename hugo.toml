@@ -1,8 +1,21 @@
 baseURL = "https://DEIL111428.github.io/portfolio.github.io/"
-languageCode = 'en-us'
+languageCode = 'ru' 
 title = 'My New Hugo Site'
 theme = 'PaperMod'
 
+canonifyURLs = true
+relativeURLs = false
+
 [params]
-    # Это поможет теме правильно подхватывать стили
     env = "production"
+    description = "Моё портфолио"
+    author = "DEIL111428"
+    
+    # Настройки отображения главной страницы (Home Info Mode)
+    [params.homeInfoParams]
+        Title = "Привет! Это мой сайт"
+        Content = "Здесь я публикую свои отчеты по учебе."
+
+    # Настройки разметки (помогает избежать проблем с отображением)
+    [markup.goldmark.renderer]
+        unsafe = true # Позволяет использовать HTML в постах (например, для видео или кастомных кнопок)
