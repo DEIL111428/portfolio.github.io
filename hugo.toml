@@ -21,7 +21,7 @@ relativeURLs = false
 
         [[params.homeInfoParams.SocialIcons]]
             name = "github"
-            url = "https://github.com/DEIL111428""
+            url = "https://github.com/DEIL111428"
 
     # Настройки разметки (помогает избежать проблем с отображением)
     [markup.goldmark.renderer]
